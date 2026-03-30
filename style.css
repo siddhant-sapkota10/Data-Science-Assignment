@@ -5,7 +5,12 @@ body{
     color: #0f172a;
     line-height: 1.5;
 }
-
+.dd {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
 .hero{
     background: linear-gradient(to right, #073674, #0f172a);
     color: white;
@@ -44,4 +49,7 @@ img{
     border-left: 5px solid #10b981;
     padding: 12px;
     margin-bottom: 15px;
+}
+.dd-title{
+    text-align: center;
 }
