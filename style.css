@@ -11,6 +11,15 @@ section .dd {
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 1024px) {
+    .dd {
+        flex-direction: column;
+    }
+}
+
+.dd img{
+    width: 48%;
+}
 .hero{
     background: linear-gradient(to right, #073674, #0f172a);
     color: white;
@@ -51,5 +60,13 @@ img{
     margin-bottom: 15px;
 }
 .dd-title{
+    text-align: center;
+}
+.references-header{
+    text-align: center;
+    margin-top: 60px;
+    color: #073674;
+}
+.references p{
     text-align: center;
 }
