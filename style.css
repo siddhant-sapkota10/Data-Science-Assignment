@@ -18,7 +18,7 @@ section .dd {
 }
 
 .dd img{
-    width: 48%;
+    width: 100%;
 }
 .hero{
     background: linear-gradient(to right, #073674, #0f172a);
